@@ -1,0 +1,2 @@
+class EmailFormat < ApplicationRecord
+end
