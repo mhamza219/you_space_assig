@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get 'email_format', to: 'users#email_format'
+      post 'send_notification', to: 'users#send_notification'
     end
   end
-
 end
