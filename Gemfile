@@ -17,6 +17,8 @@ gem "puma", ">= 5.0"
 gem 'devise'
 gem 'devise-jwt' # For handling JWT in API
 
+gem 'byebug'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
